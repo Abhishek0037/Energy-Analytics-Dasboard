@@ -1,7 +1,9 @@
 import pandas as pd
 
 # Load data
-df = pd.read_csv("Data/household_power_consumption.csv")
+# Load data
+file_name = input("Enter CSV file name: ")
+df = pd.read_csv(f"Data/{file_name}")
 
 # Create datetime column
 df["Datetime"] = pd.to_datetime(
