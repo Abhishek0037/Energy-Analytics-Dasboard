@@ -16,7 +16,7 @@ The Energy Analytics Dashboard is a data analytics project developed using Pytho
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
